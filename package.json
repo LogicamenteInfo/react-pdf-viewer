@@ -20,13 +20,13 @@
   "dependencies": {    
     "@material-ui/core": "^4.10.2",
     "@material-ui/icons": "^4.9.1",    
+    "bootstrap": "^4.5.0",
     "pdfjs-dist": "^2.4.456",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "peerDependencies": {
-    "bootstrap": "^4.5.0",
+  "peerDependencies": {    
     "react": "16.x"
   },
   "devDependencies": {
