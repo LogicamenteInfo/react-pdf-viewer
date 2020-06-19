@@ -10,14 +10,14 @@ const ResetZoom = ({
 
   if (scale.toFixed(2) === defaultScale.toFixed(2)) {
     return (
-            <button className={resetZoomClass} disabled>
+            <button type="button" className={resetZoomClass} disabled>
                 <RefreshIcon />
             </button>
     );
   }
 
   return (
-        <button className={resetZoomClass} onClick={handleResetZoom}>
+        <button type="button" className={resetZoomClass} onClick={handleResetZoom}>
             <RefreshIcon />
         </button>
   );

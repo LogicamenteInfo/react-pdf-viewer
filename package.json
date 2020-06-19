@@ -1,6 +1,6 @@
 {
   "name": "@logicamente.info/react-pdf-viewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React PDF viewer component, bootstrap compatible, with controls based on PDF.js.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -17,16 +17,16 @@
     "start": "nwb serve-react-demo",
     "test": "nwb test-react"
   },
-  "dependencies": {    
+  "dependencies": {
     "@material-ui/core": "^4.10.2",
-    "@material-ui/icons": "^4.9.1",    
+    "@material-ui/icons": "^4.9.1",
     "bootstrap": "^4.5.0",
     "pdfjs-dist": "^2.4.456",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "peerDependencies": {    
+  "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {

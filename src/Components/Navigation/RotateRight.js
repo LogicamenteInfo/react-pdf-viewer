@@ -8,14 +8,14 @@ const RotateRight = ({ css, rotationAngle, handleRotateRight }) => {
 
   if (rotationAngle === 90) {
     return (
-            <button className={rotateRightClass} disabled>
+            <button type="button" className={rotateRightClass} disabled>
                <RotateRightIcon />
             </button>
     );
   }
 
   return (
-        <button className={rotateRightClass} onClick={handleRotateRight}>
+        <button type="button" className={rotateRightClass} onClick={handleRotateRight}>
             <RotateRightIcon />
         </button>
   );

@@ -15,14 +15,14 @@ const ZoomOut = ({
 
   if (scale.toFixed(2) === checkScale.toFixed(2)) {
     return (
-            <button className={zoomOutClass} disabled>
+            <button type="button" className={zoomOutClass} disabled>
                 <ZoomOutIcon />
             </button>
     );
   }
 
   return (
-        <button className={zoomOutClass} onClick={handleZoomOut}>
+        <button type="button" className={zoomOutClass} onClick={handleZoomOut}>
             <ZoomOutIcon />
         </button>
   );

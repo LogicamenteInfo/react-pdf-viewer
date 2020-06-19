@@ -19,14 +19,14 @@ const NextPageButton = ({
 
   if (state || page === pages) {
     return (
-            <button className={nextClass} disabled>
+            <button type="button" className={nextClass} disabled>
                 <KARIcon />
             </button>
     );
   }
 
   return (
-        <button className={nextClass} onClick={handleClick} disabled={state}>
+        <button type="button" className={nextClass} onClick={handleClick} disabled={state}>
             <KARIcon />
         </button>
   );

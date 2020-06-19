@@ -8,14 +8,14 @@ const ResetRotation = ({ css, rotationAngle, handleResetRotation }) => {
 
   if (rotationAngle === 0) {
     return (
-            <button className={resetRotationClass} disabled>
+            <button type="button" className={resetRotationClass} disabled>
                 <RefreshIcon />
             </button>
     );
   }
 
   return (
-        <button className={resetRotationClass} onClick={handleResetRotation}>
+        <button type="button" className={resetRotationClass} onClick={handleResetRotation}>
             <RefreshIcon />
         </button>
   );

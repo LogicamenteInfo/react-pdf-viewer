@@ -17,14 +17,14 @@ const PreviousPageButton = ({ css, page, handlePrevClick }) => {
 
   if (state || page === 1) {
     return (
-            <button className={prevClass} disabled>
+            <button type="button" className={prevClass} disabled>
                 <KALIcon />
             </button>
     );
   }
 
   return (
-        <button className={prevClass} onClick={handleClick}>
+        <button type="button" className={prevClass} onClick={handleClick}>
             <KALIcon />
         </button>
   );

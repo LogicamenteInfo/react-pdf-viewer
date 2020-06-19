@@ -15,14 +15,14 @@ const ZoomIn = ({
 
   if (scale.toFixed(2) === checkScale.toFixed(2)) {
     return (
-            <button className={zoomInClass} disabled>
+            <button type="button" className={zoomInClass} disabled>
                 <ZoomInIcon />
             </button>
     );
   }
 
   return (
-        <button className={zoomInClass} onClick={handleZoomIn}>
+        <button type="button" className={zoomInClass} onClick={handleZoomIn}>
             <ZoomInIcon />
         </button>
   );
