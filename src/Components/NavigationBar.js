@@ -35,7 +35,7 @@ const Navigation = ({
             {hideZoom ? (
                 <div className='col-4'></div>
             ) : (
-                <div className='col-4'>
+                <div className='col-4 text-left'>
                     <ZoomOut
                         scale={scale}
                         minScale={minScale}
@@ -58,7 +58,7 @@ const Navigation = ({
                     />
                 </div>
             )}
-            <div className='col-4'>
+            <div className='col-4 text-center'>
                 <PreviousPageButton
                     css={css.previousPageBtn}
                     page={page}
@@ -80,7 +80,7 @@ const Navigation = ({
             {hideRotation ? (
                 <div className='col-4'></div>
             ) : (
-                <div className='col-4'>
+                <div className='col-4 text-right'>
                     <RotateLeft
                         css={css.rotateLeftBtn}
                         rotationAngle={rotationAngle}
