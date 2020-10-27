@@ -30,7 +30,6 @@
     "react": "16.x"
   },
   "devDependencies": {
-    "nwb": "0.25.x",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
@@ -39,7 +38,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "nwb": "0.25.x"
   },
   "author": "Logicamente Info",
   "homepage": "https://logicamente.info",
