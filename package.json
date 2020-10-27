@@ -1,6 +1,6 @@
 {
   "name": "@logicamente.info/react-pdf-viewer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React PDF viewer component, bootstrap compatible, with controls based on PDF.js.",
   "main": "lib/index.js",
   "module": "es/index.js",
