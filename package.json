@@ -18,16 +18,16 @@
     "test": "nwb test-react"
   },
   "dependencies": {
-    "@material-ui/core": "^4.10.2",
-    "@material-ui/icons": "^4.9.1",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
     "bootstrap": "^4.5.0",
     "pdfjs-dist": "^2.4.456",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "peerDependencies": {
-    "react": "16.x"
+    "react": ">16.x"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
@@ -39,7 +39,10 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-standard": "^4.0.1",
-    "nwb": "0.25.x"
+    "inferno": "^7.4.8",
+    "jquery": "^3.6.0",
+    "nwb": "0.25.x",
+    "popper.js": "^1.16.1"
   },
   "author": "Logicamente Info",
   "homepage": "https://logicamente.info",
