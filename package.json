@@ -1,6 +1,6 @@
 {
   "name": "@logicamente.info/react-pdf-viewer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A React PDF viewer component, bootstrap compatible, with controls based on PDF.js.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -41,7 +41,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "inferno": "^7.4.8",
     "jquery": "^3.6.0",
-    "nwb": "0.25.x",
+    "nwb": "^0.25.x",
     "popper.js": "^1.16.1"
   },
   "author": "Logicamente Info",
